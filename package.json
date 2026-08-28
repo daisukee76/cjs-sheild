@@ -2,6 +2,7 @@
   "name": "cjs-shield",
   "version": "0.1.0",
   "description": "CommonJS-first bridge for loading ESM without converting the application to ESM",
+  "author": "daisukee76",
   "main": "src/index.js",
   "type": "commonjs",
   "exports": {
