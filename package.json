@@ -1,0 +1,17 @@
+{
+  "name": "cjs-shield",
+  "version": "0.1.0",
+  "description": "CommonJS-first bridge for loading ESM without converting the application to ESM",
+  "main": "src/index.js",
+  "type": "commonjs",
+  "exports": {
+    ".": "./src/index.js"
+  },
+  "engines": {
+    "node": ">=20.19.0"
+  },
+  "scripts": {
+    "test": "node test/smoke.js"
+  },
+  "license": "MIT"
+}
